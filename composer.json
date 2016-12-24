@@ -1,7 +1,10 @@
 {
     "name": "ordent/ramenuser",
     "require": {
-        "ordent/ramenplatform": "^1.0.2"
+        "ordent/ramenplatform": "~1.0.*",
+        "kodeine/laravel-acl": "~1.0@dev",
+        "laravel/passport" : "~1.0.*",
+        "spatie/laravel-sluggable": "^1.3"
     },
     "authors": [
         {
@@ -21,7 +24,8 @@
     "license": "MIT",
     "autoload": {
     "psr-4": {
-        "Ordent\\Ramenuser\\": "src/"
+        "Ordent\\Ramenuser\\": "src/",
+        "Ordent\\Ramenplatform\\": "../ramenplatform/src/",
     }
 },
   "minimum-stability": "dev"
