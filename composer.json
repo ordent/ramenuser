@@ -23,10 +23,10 @@
     "keywords": ["laravel","illuminate","api","users","trait","response"],
     "license": "MIT",
     "autoload": {
-    "psr-4": {
-        "Ordent\\Ramenuser\\": "src/",
-        "Ordent\\Ramenplatform\\": "../ramenplatform/src/",
-    }
-},
+        "psr-4": {
+            "Ordent\\Ramenuser\\": "src/",
+            "Ordent\\Ramenplatform\\": "../ramenplatform/src/",
+        }
+    },
   "minimum-stability": "dev"
 }
