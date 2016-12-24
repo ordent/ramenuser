@@ -25,7 +25,7 @@
     "autoload": {
         "psr-4": {
             "Ordent\\Ramenuser\\": "src/",
-            "Ordent\\Ramenplatform\\": "../ramenplatform/src/",
+            "Ordent\\Ramenplatform\\": "../ramenplatform/src/"
         }
     },
   "minimum-stability": "dev"
